@@ -1,0 +1,130 @@
+{
+    "title": "bug_close_icon",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1485,
+            "height": 687,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://products-store.hexlet.app/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://products-store.hexlet.app/",
+                    "title": "Hexlet Products Store"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Eyeshadow Palette with Mirror Eyeshadow Palette with Mirror The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application. 19.99$ 16.35$ 34 Add to cart",
+                    "aria/Add to cart"
+                ],
+                [
+                    "a:nth-of-type(2) button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div[2]/div/a[2]/div/div/div/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(2) button"
+                ]
+            ],
+            "offsetY": 11.8046875,
+            "offsetX": 68.2578125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Powder Canister Powder Canister The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish. 14.99$ 13.51$ 89 Add to cart",
+                    "aria/Add to cart"
+                ],
+                [
+                    "a:nth-of-type(3) button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div[2]/div/a[3]/div/div/div/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(3) button"
+                ]
+            ],
+            "offsetY": 10.8046875,
+            "offsetX": 40.265625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Cart"
+                ],
+                [
+                    "header li:nth-of-type(2) > a"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/nav/ul/li[2]/a"
+                ],
+                [
+                    "pierce/header li:nth-of-type(2) > a"
+                ],
+                [
+                    "text/Cart"
+                ]
+            ],
+            "offsetY": 18,
+            "offsetX": 26.7421875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Checkout"
+                ],
+                [
+                    "section:nth-of-type(2) > div > div > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/section[2]/div/div/button"
+                ],
+                [
+                    "pierce/section:nth-of-type(2) > div > div > button"
+                ],
+                [
+                    "text/Checkout"
+                ]
+            ],
+            "offsetY": 14,
+            "offsetX": 80.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.modal-header > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div/div/div[1]/button"
+                ],
+                [
+                    "pierce/div.modal-header > button"
+                ]
+            ],
+            "offsetY": 14,
+            "offsetX": 13.5
+        }
+    ]
+}

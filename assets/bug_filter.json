@@ -1,0 +1,62 @@
+{
+    "title": "Recording 22.10.2026 at 14:48:00",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1485,
+            "height": 557,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://products-store.hexlet.app/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://products-store.hexlet.app/",
+                    "title": "Hexlet Products Store"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Dior"
+                ],
+                [
+                    "#Dior-check"
+                ],
+                [
+                    "xpath///*[@id=\"Dior-check\"]"
+                ],
+                [
+                    "pierce/#Dior-check"
+                ]
+            ],
+            "offsetY": 6.5,
+            "offsetX": 4
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div > div nav:nth-of-type(1) li:nth-of-type(2) > a"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div[2]/nav[1]/ul/li[2]/a"
+                ],
+                [
+                    "pierce/div > div nav:nth-of-type(1) li:nth-of-type(2) > a"
+                ]
+            ],
+            "offsetY": 14.5,
+            "offsetX": 30.2265625
+        }
+    ]
+}
