@@ -2,14 +2,17 @@
 
 [![hexlet-check](https://github.com/le-victoria22/qa-engineer-project-84/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/le-victoria22/qa-engineer-project-84/actions)
 
-Протестируйте интернет-магазин, и найдите все ошибки
+Проект тестирования интернет-магазина https://products-store-ru.hexlet.app
 
-Учебный проект Хекслета: https://ru.hexlet.io/programs/qa-engineer
-Как это должно работать: https://products-store-ru.hexlet.app
+## Структура проекта
 
-## Стек
-
-- Разное
+- about.yml - профессиональный профиль автора
+- requirements.yml - анализ требований проекта, все требования разделены на функциональные, нефункциональные и неявные
+- test-cases.yml - подробные тест-кейсы для проведения тестирования
+- testing-report.yml - результат прохождения тест-кейсов, отчёт об их успешности или провале
+- bugreports.yml - подробное описание найденных дефектов с пошаговыми инструкциями по их воспроизведению
+- regress-report.yml - отчет о проведенном регрессионном тестировании и новые дефекты
+- assets - скриншоты и скрипты, приложенные к баг-репортам
 
 ## Установка
 
