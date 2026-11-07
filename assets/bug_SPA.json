@@ -1,0 +1,112 @@
+{
+    "title": "bug_SPA",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1485,
+            "height": 560,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://products-store-v2.hexlet.app/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://products-store-v2.hexlet.app/",
+                    "title": "Hexlet Products Store"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "nav:nth-of-type(1) button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div[2]/nav[1]/ul/li/button"
+                ],
+                [
+                    "pierce/nav:nth-of-type(1) button"
+                ]
+            ],
+            "offsetY": 16,
+            "offsetX": 40.0546875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Potatoes[role=\"image\"]"
+                ],
+                [
+                    "div:nth-of-type(5) img"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div[2]/div/div[5]/div/a/img"
+                ],
+                [
+                    "pierce/div:nth-of-type(5) img"
+                ]
+            ],
+            "offsetY": 100.3046875,
+            "offsetX": 152.171875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Cart"
+                ],
+                [
+                    "li:nth-of-type(2) > a"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/nav/ul/li[2]/a"
+                ],
+                [
+                    "pierce/li:nth-of-type(2) > a"
+                ],
+                [
+                    "text/Cart"
+                ]
+            ],
+            "offsetY": 24.5,
+            "offsetX": 28.7421875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Store"
+                ],
+                [
+                    "li:nth-of-type(1) > a"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/nav/ul/li[1]/a"
+                ],
+                [
+                    "pierce/li:nth-of-type(1) > a"
+                ]
+            ],
+            "offsetY": 22,
+            "offsetX": 19.453125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://products-store-v2.hexlet.app/",
+                    "title": "Hexlet Products Store"
+                }
+            ]
+        }
+    ]
+}
